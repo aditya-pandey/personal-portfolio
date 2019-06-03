@@ -190,7 +190,7 @@ ul{
     min-height: 50vh;
     text-align: center;
     background: #7d9ec7;
-    padding-top: 20px;
+    padding: 20px;
 }
 .project{
     display: grid;
@@ -216,6 +216,13 @@ ul{
 .two{
     background: url("js-doc.png") no-repeat center center/cover;
 }
+.three{
+    background: url("player.png") no-repeat center center/cover;
+}
+.four{
+    background: url("numfact.png") no-repeat center center/cover;
+}
+
 .cert1{
     background: url("resp.png") no-repeat center center/cover;
 }
@@ -235,7 +242,7 @@ ul{
 }
 .projects-inner button:hover{
     background: linear-gradient(to right,#e31b6D,lightpink);
-    
+    color: white;
 }
 a{
     text-decoration: none;
@@ -260,11 +267,12 @@ a{
 }
 .projects-inner:hover{
     background: linear-gradient(to right,rgb(173, 172, 230),rgb(138, 213, 238));
-
 }
-
+.projects-inner button:hover a{
+    color: white;    
+}
 .projects-inner >div> h4{
-    font-size: 1.7em;
+    font-size: 1.6em;
     transform: translateY(-40px);
     opacity: 0;
     transition: all 1s;

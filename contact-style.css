@@ -25,7 +25,9 @@ h1{
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+a:hover{
+  text-decoration: none;
+}
 .btn{
     width: 30%;
 } 
