@@ -190,7 +190,7 @@ ul{
     min-height: 50vh;
     text-align: center;
     background: #7d9ec7;
-    padding: 20px;
+    padding: 20px 0;
 }
 .project{
     display: grid;
@@ -202,8 +202,8 @@ ul{
     justify-content: center;
 }
 .projects-inner{
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     overflow: hidden;
     border-radius: 5px;
     cursor: pointer;
@@ -230,18 +230,18 @@ ul{
     background: url("js-image.png") no-repeat center center/cover;
 }
 .projects-inner > div >button{
-    width: 170px;
+    width: 155px;
     height: 40px;
     border: 2px solid #e31b6D;
     position: absolute;
     opacity: 0;
-    transform: translateY(180px);
+    transform: translateY(100px);
     cursor: pointer;
     transition: all 0.5s;
     font-size: 18px;
 }
 .projects-inner button:hover{
-    background: linear-gradient(to right,#e31b6D,lightpink);
+    background: #e31b6D;
     color: white;
 }
 a{
@@ -256,6 +256,11 @@ a{
     align-items: stretch;
     justify-content: center;
 
+}
+.project-button a{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
 }
 .projects-inner:hover h4{
         opacity: 1;
@@ -272,11 +277,10 @@ a{
     color: white;    
 }
 .projects-inner >div> h4{
-    font-size: 1.6em;
+    font-size: 1.5em;
     transform: translateY(-40px);
     opacity: 0;
-    transition: all 1s;
-    
+    transition: all 1s; 
 }
 .footer{
     height: 40px;
@@ -287,7 +291,7 @@ a{
     background: midnightblue;
     color: white;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .container{
         min-height: 80vh;
     }
@@ -359,18 +363,35 @@ a{
         min-height: 100vh;
     }
     .project{
-    display: grid;
-    grid-template-columns: auto ;
-    grid-template-rows: auto auto auto auto;
-    grid-row-gap: 30px;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto auto auto auto;
+        grid-row-gap: 30px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
     }
     .projects-inner
     {
-            width: 70vw;
-            height: 275px;
+        width: 65vw;
+        height: 250px;
+        font-size: 18px;
     }
-    
+    .projects-inner >div> h4{
+        font-size: 1.5em;
+        transform: translateY(-20px);
+    }
+}
+@media only screen and (max-width: 520px){
+    .projects-inner{
+        width: 75vw;
+        height: 200px;
+        font-size: 18px;
+    }
+    .projects-inner > div >  h4{
+        font-size: 1.1em;
+    }
+    .projects-inner > div >button{
+        transform: translateY(75px);
+    }
 }
