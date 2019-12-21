@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 ::-webkit-scrollbar{
   width: 7px;
@@ -67,12 +67,12 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    text-align:center;  
+    text-align:center;
     padding-top: -10px;
 }
 .tools{
     width:30vw;
-    min-height: 30vh;   
+    min-height: 30vh;
     background: antiquewhite;
     transform: translate(-230px);
     opacity: 0;
@@ -82,10 +82,10 @@ body{
 }
 .skill{
     width:30vw;
-    min-height: 30vh; 
+    min-height: 30vh;
     background: rgb(161, 196, 196);
     opacity: 0;
-    transform: translate(230px);    
+    transform: translate(230px);
     transition: all 1s;
     border-radius: 10px;
     padding-bottom: 50px;
@@ -156,7 +156,7 @@ ul{
     border-radius: 0 5px 5px 0;
   /* animation: filling 3s;
     animation-delay: 2s;*/
-    font-size: 1.3em; 
+    font-size: 1.3em;
 }
 
 @keyframes filling{
@@ -208,10 +208,10 @@ ul{
     border-radius: 5px;
     cursor: pointer;
     transition: all 1s;
-    
+
 }
 .one{
-    background: url("bookstore.png") no-repeat center center/cover;
+    background: url("letsread.png") no-repeat center center/cover;
 }
 .two{
     background: url("js-doc.png") no-repeat center center/cover;
@@ -222,7 +222,12 @@ ul{
 .four{
     background: url("numfact.png") no-repeat center center/cover;
 }
-
+.five{
+    background: url("bookstore.png") no-repeat center center/cover;
+}
+.six{
+    background: url("finansic.png") no-repeat center center/cover;
+}
 .cert1{
     background: url("resp.png") no-repeat center center/cover;
 }
@@ -274,13 +279,13 @@ a{
     background: linear-gradient(to right,rgb(173, 172, 230),rgb(138, 213, 238));
 }
 .projects-inner button:hover a{
-    color: white;    
+    color: white;
 }
 .projects-inner >div> h4{
     font-size: 1.5em;
     transform: translateY(-40px);
     opacity: 0;
-    transition: all 1s; 
+    transition: all 1s;
 }
 .footer{
     height: 40px;
@@ -305,15 +310,15 @@ a{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        text-align:center;  
+        text-align:center;
     }
     .tools{
         width:70vw;
-        min-height: 30vh;   
+        min-height: 30vh;
     }
     .skill{
         width:70vw;
-        min-height: 30vh; 
+        min-height: 30vh;
         margin-top: 30px;
     }
     .tools > h3,
@@ -351,7 +356,7 @@ a{
         display: inline-block;
         text-align: center;
         border-radius: 0 5px 5px 0;
-        font-size: 1.3em; 
+        font-size: 1.3em;
     }
     .logo{
         color: white;
