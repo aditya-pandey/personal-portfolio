@@ -51,6 +51,7 @@ body{
     background: lightgray;
 }
 .photo{
+    margin-top:50px;
     width: 225px;
     height: 225px;
 }
