@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-primary: 'B612', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
 
     --fw-reg: 300;
