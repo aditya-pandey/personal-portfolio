@@ -112,7 +112,7 @@ h1{
     margin-top: 50px;
     margin-bottom: 20px;
     color:var(--clr-light);
-   font-family: var(--ff-primary);
+   font-family: var(--ff-secondary);
 }
 .others{
     padding-top: 20px;
