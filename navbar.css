@@ -1,6 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Fira+Code&display=swap');
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'B612', sans-serif;
+    --ff-secondary: 'Fira Code', monospace;
 
     --fw-reg: 300;
     --fw-bold: 900;
