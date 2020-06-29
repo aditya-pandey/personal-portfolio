@@ -120,7 +120,7 @@ h1{
 .others{
     padding-top: 20px;
     min-height:60vh;
-    background: #f0f0f0;
+    background: linear-gradient(145deg, rgb(142, 158, 171), rgb(238, 242, 243));;
     margin: 0;
 }
 .other{
