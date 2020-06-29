@@ -76,12 +76,12 @@ body{
     background:linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
 }
 .poem{
-    width: 50vw;
+    width: 80vw;
     background:#1a2639;
-    border-radius: 0 10px;
+    border-radius: 10px;
     font-family: 'Tillana', cursive;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 30px;
     display: flex;
     padding-top: 25px;
@@ -90,6 +90,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     font-weight: bold;
+    color:var(--clr-light) ;
 }
 .poems > .waqt{
     min-height: 100vh;
@@ -169,7 +170,7 @@ h1{
     left: 0;
     right: 0;
 }
-.poem h1{
+.poems h1{
 color:var(--clr-light);
 }
 
