@@ -107,11 +107,11 @@ body{
     padding-top: -10px;
 }
 .tools{
-    background-color: #2b2024;
+    background-color: var(--clr-dark);
     transform: translate(-230px);
 }
 .skill{
-    background-color: #2b2024;
+    background-color: var(--clr-dark);
     transform: translate(230px);
 }
 .skill > div{
