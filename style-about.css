@@ -107,11 +107,11 @@ body{
     padding-top: -10px;
 }
 .tools{
-    background-color: var(--clr-accent);
+    background-color: #2b2024;
     transform: translate(-230px);
 }
 .skill{
-    background-color: var(--clr-accent);
+    background-color: #2b2024;
     transform: translate(230px);
 }
 .skill > div{
@@ -151,7 +151,7 @@ ul{
 }
 .cover{
     width: 90%;
-    background: #333333;
+    background:#211717;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -212,11 +212,8 @@ ul{
     min-height: 50vh;
     text-align: center;
     padding: 20px 0;
-    background-color: rgb(161, 157, 157);
-    background-image: url(/projects.jpg);
-    background-size: cover;
-    background-position: right;
-    background-blend-mode: multiply;
+    background:lightgray;
+    font-family: var(--ff-primary);
 }
 .project{
     display: grid;
@@ -295,17 +292,19 @@ a{
     font-size: 15px;
     font-weight: bold;
     color: black;
+    font-family: var(--ff-primary);
 }
 .projects-inner:hover h4{
         opacity: 1;
         transform: translateY(0px);
+        color:var(--clr-light)
 }
 .projects-inner:hover button{
     transform: translateY(30px);
     opacity: 1;
 }
 .projects-inner:hover{
-    background: linear-gradient(to right,rgb(173, 172, 230),rgb(138, 213, 238));
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
 }
 .projects-inner button:hover a{
     color: white;
@@ -370,7 +369,6 @@ a{
     }
     .cover{
         width: 90%;
-        background: #333333;
         display: flex;
         flex-direction: row;
         align-items: center;

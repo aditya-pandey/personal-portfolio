@@ -30,7 +30,7 @@ header{
     left: 0;
     color: var(--clr-light);
     box-shadow: var(--bs);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--ff-secondary);
 }
 header h1{
     position: absolute;
