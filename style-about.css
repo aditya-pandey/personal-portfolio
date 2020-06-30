@@ -82,7 +82,10 @@ body{
     0.125em 0.125em 0.25em rgba(207, 189, 189, 0.849);
     font-family: var(--ff-secondary);
     color: var(--clr-light);
-    border-radius: 5px;
+    border-radius: 14px;
+background: linear-gradient(145deg, #2b2b2b, #333333);
+box-shadow:  8px 8px 16px #242424, 
+             -8px -8px 16px #3c3c3c;
 }
 .skills{
     width: 100vw;
@@ -107,11 +110,9 @@ body{
     padding-top: -10px;
 }
 .tools{
-    background-color: var(--clr-dark);
     transform: translate(-230px);
 }
 .skill{
-    background-color: var(--clr-dark);
     transform: translate(230px);
 }
 .skill > div{
