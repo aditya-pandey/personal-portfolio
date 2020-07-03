@@ -147,7 +147,7 @@ ul > a:hover{
     font-size: 5em;
     text-align: center;
     font-family: var(--ff-primary);
-    font-weight: var(--fw-bold);
+    font-weight: 400;
 }
 .main-button{
     margin-top: 80px;
