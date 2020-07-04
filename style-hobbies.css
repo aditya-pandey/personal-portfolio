@@ -53,10 +53,10 @@ body{
     box-shadow: 1px 2px 10px black;
 }
 .item1{
-    background: url("1984.jpg") no-repeat center center/cover;
+    background: url("images/1984.jpg") no-repeat center center/cover;
 }
 .item2{
-    background: url("kite-runner.jpeg") no-repeat center center/cover;
+    background: url("images/kite-runner.jpeg") no-repeat center center/cover;
 }
 .item3{
     display: flex;

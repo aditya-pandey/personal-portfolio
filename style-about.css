@@ -84,14 +84,14 @@ body{
     color: var(--clr-light);
     border-radius: 14px;
 background: linear-gradient(145deg, #2b2b2b, #333333);
-box-shadow:  8px 8px 16px #242424, 
+box-shadow:  8px 8px 16px #242424,
              -8px -8px 16px #3c3c3c;
 }
 .skills{
     width: 100vw;
     /* min-height:50vh; */
     background-color: var(--clr-dark);
-    background-image: url(/skills.jpg);
+    background-image: url(images/skills.jpg);
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
@@ -235,31 +235,31 @@ ul{
 
 }
 .zero{
-    background: url("/groot.png") no-repeat center center/cover;
+    background: url("images/groot.png") no-repeat center center/cover;
 }
 .one{
-    background: url("letsread.png") no-repeat center center/cover;
+    background: url("images/letsread.png") no-repeat center center/cover;
 }
 .two{
-    background: url("js-doc.png") no-repeat center center/cover;
+    background: url("images/js-doc.png") no-repeat center center/cover;
 }
 .three{
-    background: url("player.png") no-repeat center center/cover;
+    background: url("images/player.png") no-repeat center center/cover;
 }
 .four{
-    background: url("numfact.png") no-repeat center center/cover;
+    background: url("images/numfact.png") no-repeat center center/cover;
 }
 .five{
-    background: url("bookstore.png") no-repeat center center/cover;
+    background: url("images/bookstore.png") no-repeat center center/cover;
 }
 .six{
-    background: url("finansic.png") no-repeat center center/cover;
+    background: url("images/finansic.png") no-repeat center center/cover;
 }
 .cert1{
-    background: url("resp.png") no-repeat center center/cover;
+    background: url("images/resp.png") no-repeat center center/cover;
 }
 .cert2{
-    background: url("js-image.png") no-repeat center center/cover;
+    background: url("images/js-image.png") no-repeat center center/cover;
 }
 .projects-inner > div >button{
     width: 155px;
