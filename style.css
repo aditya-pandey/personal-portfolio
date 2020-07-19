@@ -165,7 +165,8 @@ ul > a:hover{
 }
 .main-button >a{
     text-decoration: none;
-    color: black;
+    color:#eee;
+    font-family:var(--ff-primary);
 }
 .main-button:hover{
     cursor: pointer;
