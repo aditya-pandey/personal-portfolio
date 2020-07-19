@@ -125,7 +125,7 @@ ul > a:hover{
 }
 .main::before{
     content: "";
-    background: url("images/main-bg.jpg") no-repeat center center/cover;
+    background: url("https://insane.imfast.io/main-bg.jpg") no-repeat center center/cover;
     width: 100%;
     height: 100%;
     position: absolute;
