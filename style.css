@@ -156,21 +156,21 @@ ul > a:hover{
     border-radius: 15px;
     text-align: center;
     height: 50px;
-    padding-top: 8px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     background: #111;
     color: #eee;
     transition: all 0.5s;
 }
 .main-button >a{
     text-decoration: none;
-    margin-top: 10px;
     color: black;
 }
 .main-button:hover{
-    background: transparent;
     cursor: pointer;
-    background-color: rgba(9, 97, 168, 0.85);
-    color: white;
+    background-color: #333;
+    color:#ddd ;
 }
 .main-button:hover a{
     color: white;
