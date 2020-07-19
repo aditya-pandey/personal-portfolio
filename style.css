@@ -157,7 +157,7 @@ ul > a:hover{
     text-align: center;
     height: 50px;
     padding-top: 8px;
-    background: #000;
+    background: #111;
     color: #eee;
     transition: all 0.5s;
 }
