@@ -107,6 +107,8 @@ body{
     width:80%;
     line-height: 1.5;
     margin: 0 auto;
+    padding:15px;
+    background:#555555;
 }
 .poem > h2{
     text-align: center;
