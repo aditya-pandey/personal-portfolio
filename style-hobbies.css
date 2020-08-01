@@ -104,11 +104,13 @@ body{
     min-height: 80vh;
 }
 .poem > p{
-    width:80%;
+    width: 80%;
     line-height: 1.5;
     margin: 0 auto;
-    padding:15px;
-    background:#555555;
+    background: #454545;
+    padding: 25px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #000000
 }
 .poem > h2{
     text-align: center;
