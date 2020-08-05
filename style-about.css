@@ -329,6 +329,9 @@ a{
     .container{
         min-height: 80vh;
     }
+    .desig p {
+      max-width:80vw;
+}
     .info{
         font-size: 16px;
     }
