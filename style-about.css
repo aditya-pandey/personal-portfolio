@@ -57,6 +57,13 @@ body{
     height: 225px;
     border-radius:50%;
 }
+.photo img{
+    border-radius: 50%;
+    border: 5px solid var(--clr-dark);
+    box-shadow: 2px 25px 15px grey;
+    width: 150px;
+    height: 175px;
+}
 .desig{
     margin-top:10vh;
     font-family: "eurostile",sans-serif;
