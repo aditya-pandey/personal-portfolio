@@ -73,8 +73,9 @@ body{
     font-size: var(--fs-h1);
     font-family: var(--ff-primary);
 }
-.desig > h3{
-    font-size: var(--fs-h3);
+.desig > p{
+    max-width:450px;
+    font-size: 18px;
     font-family: var(--ff-secondary);
 }
 .tools > h3, .skill > h3{
@@ -92,9 +93,9 @@ body{
     font-family: var(--ff-secondary);
     color: var(--clr-light);
     border-radius: 14px;
-background: linear-gradient(145deg, #2b2b2b, #333333);
-box-shadow:  8px 8px 16px #242424,
-             -8px -8px 16px #3c3c3c;
+    background: linear-gradient(145deg, #2b2b2b, #333333);
+    box-shadow:  8px 8px 16px #242424,
+                -8px -8px 16px #3c3c3c;
 }
 .skills{
     width: 100vw;
@@ -149,7 +150,14 @@ box-shadow:  8px 8px 16px #242424,
 ul{
     list-style-type: none;
 }
-.tools > span{
+.tools > div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.tools > div > span{
     display: block;
     text-transform: uppercase;
     font-family: var(--ff-primary);
@@ -159,37 +167,32 @@ ul{
     font-weight: var(--fw-reg);
     font-size: var(--fs-h3);
 }
-.cover{
-    width: 90%;
-    background:#211717;
+.skill-container{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-start;
-    margin: 0 auto;
-    height: 49px;
-    margin-top: 20px;
-    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    padding:20px;
+}
+.cover{
+    width:70px;
+    color:white;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin:10px;
+    padding:5px;
 }
 .logo{
     color: white;
-    width: 20%;
-    font-size: 2.5em;
+    font-size: 2.8em;
     text-align: center;
     cursor: pointer;
     z-index: 95;
 }
-.cover >.inner{
-    padding-top: 10px;
-    padding-bottom: 13px;
-    background: wheat;
-    display: inline-block;
-    text-align: center;
-    border-radius: 0 5px 5px 0;
-  /* animation: filling 3s;
-    animation-delay: 2s;*/
-    font-size: 1.3em;
-}
+
 
 @keyframes filling{
     0%{
@@ -204,18 +207,6 @@ ul{
 }
 .fa-css3-alt{
     color: #2965f1;
-}
-.html{
-    width: 70%;
-}
-.css{
-    width: 60%;
-}
-.javascript{
-    width: 45%;
-}
-.resp{
-    width: 60%;
 }
 .projects{
     width: 100%;
@@ -241,7 +232,6 @@ ul{
     border-radius: 5px;
     cursor: pointer;
     transition: all 1s;
-
 }
 .zero{
     background: url("images/groot.png") no-repeat center center/cover;
@@ -359,17 +349,17 @@ a{
     .skill{
         width:70vw;
         min-height: 30vh;
-        margin: 30px 0  ;
+        margin: 30px 0 ;
+        display: flex;
+        flex-direction:column;
     }
-    .tools > h3,
-    .skill > h3{
+    .tools > h3{
     font-size: 2em;
     opacity: 0.6;
     margin: 5px;
     margin-bottom: 10px;
     }
-    .tools > span,
-    .skill > span{
+    .tools > span{
     display: block;
     margin-bottom: 10px;
     font-size: 1.2em;
@@ -377,30 +367,23 @@ a{
     .info{
         margin-top: 18px;
     }
-    .cover{
-        width: 90%;
+    .skill-container{
         display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:flex-start;
-        margin: 0 auto;
-        height: 30px;
-        margin-top: 20px;
-        border-radius: 10px;
-        margin-bottom: 25px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        padding:20px;
     }
-    .cover > .inner{
-        padding-top: 2px;
-        padding-bottom: 2px;
-        background: wheat;
-        display: inline-block;
-        text-align: center;
-        border-radius: 0 5px 5px 0;
-        font-size: 1.3em;
+    .cover{
+        width:70px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        margin:5px;
     }
     .logo{
         color: white;
-        width: 20%;
         font-size: 1.5em;
         text-align: center;
         cursor: pointer;
